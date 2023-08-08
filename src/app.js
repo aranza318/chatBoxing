@@ -1,7 +1,7 @@
 import express from "express";
-import __dirname from "./utils.js";
+import __dirname from "../utils.js";
 import handlebars from "express-handlebars";
-import viewsRouter from "./src/routes/views.routes.js";
+import viewsRouter from "./routes/views.routes.js";
 import {Server} from "socket.io";
 
 const app = express();
